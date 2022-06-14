@@ -6,8 +6,9 @@ useful links:
 - https://allthetags.com/
 - https://fonts.google.com/
 - https://responsiveviewer.org/
+- https://httpstatus.com.br
 
-# web
+# web (front end)
 
 stack:
 
@@ -15,3 +16,15 @@ stack:
 - vite
 - tailwind
 - heroicons
+
+# server (back end)
+
+- node
+- koajs
+- koa/cors
+- koa/router
+- koa/bodyparser
+
+# database (mysql)
+
+- planetscale

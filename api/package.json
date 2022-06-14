@@ -8,14 +8,19 @@
     "email": "murilo.rodegheri@gmail.com"
   },
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "nodemon src/server.js"
   },
   "license": "MIT",
   "dependencies": {
     "@koa/cors": "^3.3.0",
     "@koa/router": "^10.1.1",
+    "@prisma/client": "^3.15.1",
     "install": "^0.13.0",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "prisma": "^3.15.1"
   }
 }

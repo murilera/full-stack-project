@@ -5,7 +5,7 @@ import { router } from './routes.js'
 
 export const app = new Koa()
 
-app.use(bodyParser())
 app.use(cors())
+app.use(bodyParser())
 app.use(router.routes())
 app.use(router.allowedMethods())
