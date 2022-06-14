@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: theme('colors.backgroundColor');
+  color: theme('colors.textColor');
+  font-size: 16px;
+}

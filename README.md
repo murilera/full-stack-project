@@ -6,3 +6,12 @@ useful links:
 - https://allthetags.com/
 - https://fonts.google.com/
 - https://responsiveviewer.org/
+
+# web
+
+stack:
+
+- react
+- vite
+- tailwind
+- heroicons
