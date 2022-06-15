@@ -1,7 +1,13 @@
-import { TweetForm } from './components/layout/TweetForm'
-import { TweetItem } from './components/layout/TweetItem'
+import { useState } from 'react'
+import { TweetForm } from './components/home/TweetForm'
+import { TweetItem } from './components/home/TweetItem'
+import { Login } from './components/login/login'
 
 export const App = () => {
+  const [user, setUser] = useState()
+
+  if (!user) return <Login signInUser={setUser} />
+
   return (
     <div>
       <TweetForm />
