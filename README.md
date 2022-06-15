@@ -7,6 +7,7 @@ useful links:
 - https://fonts.google.com/
 - https://responsiveviewer.org/
 - https://httpstatus.com.br
+- ramda omit
 
 # web (front end)
 
@@ -24,6 +25,7 @@ stack:
 - koa/cors
 - koa/router
 - koa/bodyparser
+- jwt/jsonwebtoken
 
 # database (mysql)
 
